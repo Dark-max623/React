@@ -3,6 +3,10 @@ import './App.css'
 import Home from './pages/Home';
 import CarCard from './component/CarCard';
 import Counter from './component/Counter';
+import OnMouse from './component/OnMouse';
+import Greet from './component/Greet';
+import OnChange from './component/OnChange';
+import Condition from './component/Condition';
 
 function App() {
 
@@ -20,6 +24,10 @@ function App() {
           model={2010}/>
 
           <Counter/>
+          <Greet/>
+          <OnChange/>
+          <OnMouse/>
+          <Condition/>
     </>
   );
 }
