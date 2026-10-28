@@ -7,6 +7,11 @@ import OnMouse from './component/OnMouse';
 import Greet from './component/Greet';
 import OnChange from './component/OnChange';
 import Condition from './component/Condition';
+import Condition2 from './component/Condition2';
+import Condition3 from './component/Condition3';
+import CarList from './component/CarList';
+import StudentList from './component/StudentList';
+import RegistrationForm from './component/Registration';
 
 function App() {
 
@@ -22,12 +27,17 @@ function App() {
           price={200000000}
           year={2024}
           model={2010}/>
-
+          
           <Counter/>
           <Greet/>
           <OnChange/>
           <OnMouse/>
           <Condition/>
+          <Condition2/>
+          <Condition3/>
+          <CarList/>
+          <StudentList/>
+          <RegistrationForm/>
     </>
   );
 }

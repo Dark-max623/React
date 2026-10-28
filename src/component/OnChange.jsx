@@ -14,7 +14,7 @@ function OnChange() {
                  value={name}
                  onChange={handleChange}/>
 
-          <p>your name is: {name}</p>
+                 <p>your name is: {name}</p>
 
           </div>
         );
