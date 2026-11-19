@@ -3,7 +3,7 @@ import {useState} from "react"
 function RegistrationForm(){
 
      const [name, setName] = useState("");
-     const [email, setEmail] =useState("");
+     const [email, setEmail] = useState("");
 
      function handleSubmit(event){
         event.preventDefault();

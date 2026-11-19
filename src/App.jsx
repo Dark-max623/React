@@ -13,11 +13,15 @@ import CarList from './component/CarList';
 import StudentList from './component/StudentList';
 import RegistrationForm from './component/Registration';
 import Update from './component/Update';
+import Registration from './component/Registration2';
+import Registration3 from './component/Registration3';
 
 function App() {
 
   return ( 
     <>
+
+      
         <CarCard 
           name="Mazda"
           price={12300000}
@@ -40,6 +44,8 @@ function App() {
           <StudentList/>
           <RegistrationForm/>
           <Update/>
+          <Registration/>
+            <Registration3/>
     </>
   );
 }

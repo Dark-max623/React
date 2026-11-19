@@ -6,7 +6,7 @@ function CarList() {
         <div>
             <h1>Available Cars</h1>
             {cars.map((car)=>(
-                <p key={car}>{car}</p>
+            <p key={car}>{car}</p>
             ))}
         </div>
     );
