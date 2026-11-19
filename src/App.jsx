@@ -12,6 +12,7 @@ import Condition3 from './component/Condition3';
 import CarList from './component/CarList';
 import StudentList from './component/StudentList';
 import RegistrationForm from './component/Registration';
+import Update from './component/Update';
 
 function App() {
 
@@ -38,6 +39,7 @@ function App() {
           <CarList/>
           <StudentList/>
           <RegistrationForm/>
+          <Update/>
     </>
   );
 }
